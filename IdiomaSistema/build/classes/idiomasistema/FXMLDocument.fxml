@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.image.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="270.0" prefWidth="507.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="idiomasistema.FXMLDocumentController">
+    <children>
+        <Button fx:id="btnClick" blendMode="EXCLUSION" cacheHint="QUALITY" layoutX="198.0" layoutY="218.0" onAction="#clicouBotao" opacity="0.63" text="Click Me!" textOverrun="LEADING_ELLIPSIS">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <effect>
+            <Reflection fraction="0.69" topOpacity="0.83" />
+         </effect></Button>
+        <Label fx:id="label" layoutX="32.0" layoutY="25.0" minHeight="16" minWidth="69" text="Clique para que o Idioma e País do Sistema seja mostrado">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+        <Label fx:id="lbIdioma" layoutX="85.0" layoutY="87.0" minHeight="16" minWidth="69">
+         <font>
+            <Font name="Microsoft JhengHei" size="13.0" />
+         </font></Label>
+      <Label fx:id="lbLocal" layoutX="85.0" layoutY="135.0" minHeight="16" minWidth="69">
+         <font>
+            <Font name="Microsoft JhengHei" size="13.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>
